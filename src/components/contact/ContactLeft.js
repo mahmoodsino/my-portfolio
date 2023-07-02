@@ -1,7 +1,6 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { SiGitlab, SiGmail } from "react-icons/si";
-import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
   return (

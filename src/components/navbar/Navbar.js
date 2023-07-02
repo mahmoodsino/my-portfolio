@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-scroll";
+import { FaLinkedinIn } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import { logo } from "../../assets/index";
-import { navLinksdata } from "../../constants";
 import { SiGitlab, SiGmail } from "react-icons/si";
+import { Link } from "react-scroll";
+import { navLinksdata } from "../../constants";
 import useLockPage from "../hook/use-lock-page";
 
 const Navbar = () => {
@@ -60,7 +59,7 @@ const Navbar = () => {
           <div
             className={`${
               showMenu ? "left-0 " : "-left-full"
-            } w-[80%] overflow-scroll transition-all duration-300 ease-in-out fixed h-[100vh] z-50 top-0 left-0 bg-gray-900 p-4 scrollbar-hide`}
+            } w-[80%] overflow-scroll transition-all duration-300 ease-in-out fixed h-[100vh] z-50 top-0 bg-gray-900 p-4 scrollbar-hide`}
           >
             <div className="flex flex-col gap-8 py-2 relative">
               <div className="">
