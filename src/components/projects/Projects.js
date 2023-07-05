@@ -9,9 +9,7 @@ const Projects = () => {
       className="w-full py-10 border-b-[1px] border-b-black"
     >
       <div className="flex justify-center items-center text-center">
-        <Title
-          des="My Projects"
-        />
+        <Title des="My Projects" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
@@ -56,7 +54,7 @@ const Projects = () => {
           ]}
         />
         <ProjectsCard
-          title="Room bokking template"
+          title="Room booking template"
           des="Template for Spantrek that allows you to scan your RFID card to unlock a room. you can check your reservation and see others other people reservation in the room. If needed, you can create a new reservation or make changes to your existing reservation, such as updating or canceling it. When you're done, you have the option to log out and exit the system."
           isNx
           isVite
@@ -69,6 +67,24 @@ const Projects = () => {
             "/img/room-booking-3.png",
             "/img/room-booking-4.png",
             "/img/room-booking-5.png",
+          ]}
+        />
+        <ProjectsCard
+          title="Ferm  "
+          des="project for FAO allows users to search for and view practice materials. The platform offers options to print or download the content as a PDF. It provides a convenient way to access and utilize practice resources effectively. The FAO project enhances accessibility and usability of practice materials for users."
+          isNx
+          isNext
+          isReact
+          isTailwind
+          images={[
+            "/img/ferm1.png",
+            "/img/ferm2.png",
+            "/img/ferm3.png",
+            "/img/ferm4.png",
+            "/img/ferm5.png",
+            "/img/ferm6.png",
+            "/img/ferm7.png",
+            "/img/ferm8.png",
           ]}
         />
         <ProjectsCard
@@ -91,7 +107,31 @@ const Projects = () => {
           ]}
         />
         <ProjectsCard
-          title="E-commerce Website"
+          title="E-commerce Website (Choice)"
+          des="web-based e-commerce app provides a seamless platform for managing online shopping. offering flexibility. The app features cart management, user profiles, order tracking, and product variations. Integration with Stripe ensures secure payment processing."
+          images={[
+            "/img/choice1.png",
+            "/img/choice2.png",
+            "/img/choice3.png",
+            "/img/choice4.png",
+            "/img/choice6.png",
+            "/img/choice7.png",
+            "/img/choice8.png",
+            "/img/choice9.png",
+            "/img/choice10.png",
+            "/img/choice11.png",
+            "/img/choice12.png",
+            "/img/choice13.png",
+            "/img/choice14.png",
+          ]}
+          grid={2}
+          isNext
+          isReact
+          isTailwind
+        />
+
+        <ProjectsCard
+          title="E-commerce Website (the wholeSale)"
           des="A web E-commerce app. Manage Cart, profile, Orders , variations etc... you can Register as a Store or as an Individual. We have added stripe payment gateway integration."
           images={[
             "/img/prosale-account.png",

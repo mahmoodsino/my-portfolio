@@ -4,10 +4,7 @@ import LeftBanner from "./LeftBanner";
 import RightBanner from "./RightBanner";
 const Banner = () => {
   return (
-    <section
-      id="home"
-      className="w-full pt-10 z-10 pb-10 overflow-hidden flex flex-col gap-10 xl:gap-0 lgl:flex-row  lgl:items-start border-b-[1px] font-titleFont border-b-black "
-    >
+    <section id="home" className="mainBanner">
       <LeftBanner />
       <div className="relative flex justify-center items-center lgl:w-[50%] h-full">
         <Particles

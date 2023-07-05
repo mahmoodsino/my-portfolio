@@ -5,7 +5,7 @@ import { HiArrowRight } from "react-icons/hi";
 
 const Card = ({ item: { title, des, icon } }) => {
   return (
-    <div className="w-full px-12  py-10 rounded-lg shadow-shadowOne flex items-center bg-gradient-to-r from-bodyColor to-[#202327]  hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-all duration-500  ease-in-out">
+    <div className="main-features-card">
       <div className=" overflow-y-hidden">
         <div className="flex h-full flex-col gap-10 ">
           <div className="w-10 h-8 flex flex-col justify-between">
