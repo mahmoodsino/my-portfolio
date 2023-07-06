@@ -70,22 +70,24 @@ const Projects = () => {
           ]}
         />
         <ProjectsCard
-          title="Ferm  "
+          title="search feature For Ferm"
           des="project for FAO allows users to search for and view practice materials. The platform offers options to print or download the content as a PDF. It provides a convenient way to access and utilize practice resources effectively. The FAO project enhances accessibility and usability of practice materials for users."
           isNx
           isNext
           isReact
           isTailwind
-          images={[
-            "/img/ferm1.png",
-            "/img/ferm2.png",
-            "/img/ferm3.png",
-            "/img/ferm4.png",
-            "/img/ferm5.png",
-            "/img/ferm6.png",
-            "/img/ferm7.png",
-            "/img/ferm8.png",
-          ]}
+          isOnline
+          onlineURL="https://ferm-search.fao.org/search"
+          // images={[
+          //   "/img/ferm1.png",
+          //   "/img/ferm2.png",
+          //   "/img/ferm3.png",
+          //   "/img/ferm4.png",
+          //   "/img/ferm5.png",
+          //   "/img/ferm6.png",
+          //   "/img/ferm7.png",
+          //   "/img/ferm8.png",
+          // ]}
         />
         <ProjectsCard
           title="Junkkers Dashboard"
