@@ -6,6 +6,7 @@ const Banner = () => {
   return (
     <section id="home" className="mainBanner">
       <LeftBanner />
+      
       <div className="relative flex justify-center items-center lgl:w-[50%] h-full">
         <Particles
           id="particles-js"
