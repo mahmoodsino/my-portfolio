@@ -1,18 +1,23 @@
 import { FaHammer } from "react-icons/fa";
 import {
-  SiDynamics365, SiFirebase, SiGraphql, SiProgress,SiNextdotjs, SiReact
+  SiDynamics365,
+  SiFirebase,
+  SiGraphql,
+  SiProgress,
+  SiNextdotjs,
+  SiReact,
 } from "react-icons/si";
 
 export const featuresData = [
   {
     id: 1,
     icon: <FaHammer />,
-    des: "Developed a core with a high reusability components to build dashboards.",
+    des: "Developed a core system with highly reusable elements for constructing dashboards.",
   },
   {
     id: 2,
     icon: <SiReact />,
-    des: "Built an advanced structure for ReactJs apps.",
+    des: "Constructed a sophisticated architecture for ReactJS applications.",
   },
   {
     id: 3,
@@ -22,12 +27,12 @@ export const featuresData = [
   {
     id: 4,
     icon: <SiProgress />,
-    des: "Worked deeply with functional programming.",
+    des: "I have a strong background and extensive experience in functional programming techniques.",
   },
   {
     id: 5,
     icon: <SiGraphql />,
-    des: "Used Restful API & Graphql to integrate the applications with the backend.",
+    des: "I utilized both Restful API and GraphQL to seamlessly integrate the applications with the backend.",
   },
   {
     id: 6,
