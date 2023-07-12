@@ -14,7 +14,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="dearborn News"
-          des=" this website provide latest events and news of the cities of Dearborn, Dearborn Heights, and the Detroit metro area."
+          des=" This website provide latest events and news of the cities of Dearborn, Dearborn Heights, and the Detroit metro area."
           isNext
           isTailwind
           isCss
