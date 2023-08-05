@@ -28,7 +28,7 @@ const Education = () => {
             title="IT Support Engineer"
             subTitle="Andron Business Group - (2021/11/11 - Present)"
             result="Syria"
-            des="I technical assistance to end-users, resolving hardware and software issues, configuring systems, and offering network support. I ensure smooth IT operations and help users navigate technology-related challenges."
+            des="I provide technical assistance to end-users, resolving hardware and software issues, configuring systems, and offering network support. I ensure smooth IT operations and help users navigate technology-related challenges."
           />
           <ResumeCard
             title="Frontend Web developer"
