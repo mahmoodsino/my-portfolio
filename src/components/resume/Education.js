@@ -24,17 +24,17 @@ const Education = () => {
             result="Syria"
           />
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
-          <ResumeCard
+          {/* <ResumeCard
             title="IT Support Engineer"
             subTitle="Andron Business Group - (2021/11/11 - Present)"
             result="Syria"
             des="I provide technical assistance to end-users, resolving hardware and software issues, configuring systems, and offering network support. I ensure smooth IT operations and help users navigate technology-related challenges."
-          />
+          /> */}
           <ResumeCard
             title="Frontend Web developer"
-            // subTitle="Divcodes - (2022 - Present)"
-            // result="Lebanon"
-            subTitle="Freelancer (2022 - Present)"
+            subTitle="Divcodes - (2022 - Present)"
+            result="Lebanon"
+            // subTitle="Freelancer (2022 - Present)"
             des="I specialize in creating user-friendly interfaces and exceptional user experiences. I have experience working with modern build tools like Vite and Nx monorepo. I am proficient in integrating applications with backend systems using Restful API and GraphQL. I have also worked with real-time technologies such as Socket.io, Firebase, and Google Maps services. Additionally, I have expertise in payment gateway integration. My focus is on delivering intuitive interfaces and seamless user experiences."
           />
         </div>
