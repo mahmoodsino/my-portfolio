@@ -1,6 +1,7 @@
-import React,{useState} from 'react'
-import Title from '../layouts/Title';
-import ContactLeft from './ContactLeft';
+import React, { useState } from "react";
+import Title from "../layouts/Title";
+import ContactLeft from "./ContactLeft";
+import { useInView } from "react-intersection-observer";
 
 const Contact = () => {
   const [username, setUsername] = useState("");
@@ -10,6 +11,7 @@ const Contact = () => {
   const [message, setMessage] = useState("");
   const [errMsg, setErrMsg] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
+  const { ref: imgRef, inView: imgView } = useInView();
 
   // ========== Email Validation start here ==============
   const emailValidation = () => {
@@ -56,13 +58,16 @@ const Contact = () => {
       <div className="w-full">
         <div className="w-full h-auto flex flex-col lgl:flex-row lgl:items-center justify-between">
           <ContactLeft />
-          <div className="">
-            <img src='/img/contact.png'/>
+          <div
+            ref={imgRef}
+            className={`${imgView ? "right-animation relative" : "opacity-0"}`}
+          >
+            <img src="/img/contact.png" />
           </div>
         </div>
       </div>
     </section>
   );
-}
+};
 
-export default Contact
+export default Contact;
