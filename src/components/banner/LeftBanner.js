@@ -1,6 +1,7 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from "./Media";
+import { useInView } from "react-intersection-observer";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -10,15 +11,37 @@ const LeftBanner = () => {
     deleteSpeed: 10,
     delaySpeed: 2000,
   });
+  const { ref: h4Ref, inView: h4View } = useInView();
+  const { ref: h1Ref, inView: h1View } = useInView();
+  const { ref: textRef, inView: textView } = useInView();
+  const { ref: pRef, inView: pView } = useInView();
+
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
-        <h1 className="text-6xl font-bold text-white">
+        <h4
+          ref={h4Ref}
+          className={`text-lg font-normal relative ${
+            h4View ? " left-animation" : "opacity-0"
+          }`}
+        >
+          WELCOME TO MY WORLD
+        </h4>
+        <h1
+          ref={h1Ref}
+          className={`text-6xl font-bold text-white relative ${
+            h1View ? " left-animation" : "opacity-0"
+          }`}
+        >
           Hi, I'm{" "}
           <span className="text-designColor capitalize">Mahmood Sino</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
+        <h2
+          ref={textRef}
+          className={`text-4xl font-bold text-white relative  ${
+            textView ? " left-animation" : "opacity-0"
+          } `}
+        >
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
@@ -26,7 +49,12 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
+        <p
+          ref={pRef}
+          className={`text-base font-bodyFont leading-6 tracking-wide relative ${
+            pView ? " left-animation" : "opacity-0"
+          } `}
+        >
           I specialize in creating user-friendly interfaces with a passion for
           crafting exceptional user experiences, collaborating with
           cross-functional teams, and staying up-to-date with the latest React
@@ -34,7 +62,6 @@ const LeftBanner = () => {
           together!
         </p>
       </div>
-      {/* Media */}
       <Media />
     </div>
   );

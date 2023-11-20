@@ -2,12 +2,16 @@ import React from "react";
 import Particles from "react-tsparticles";
 import LeftBanner from "./LeftBanner";
 import RightBanner from "./RightBanner";
+import { useInView } from "react-intersection-observer";
 const Banner = () => {
+  const { ref, inView } = useInView();
+
   return (
     <section id="home" className="mainBanner">
       <LeftBanner />
-      
-      <div className="relative flex justify-center items-center lgl:w-[50%] h-full">
+      <div
+        className={`relative flex justify-center items-center lgl:w-[50%] h-full `}
+      >
         <Particles
           id="particles-js"
           options={{
@@ -111,7 +115,10 @@ const Banner = () => {
             retina_detect: true,
           }}
         />
-        <div className="z-10">
+        <div
+          ref={ref}
+          className={`z-10 ${inView ? "right-animation" : "opacity-0"}`}
+        >
           <RightBanner />
         </div>
       </div>

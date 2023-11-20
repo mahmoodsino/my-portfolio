@@ -32,6 +32,10 @@
 
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .active {
     color: white;
 }
@@ -62,3 +66,34 @@
   #particles-js canvas {
     position: absolute !important;
   }
+
+
+  .left-animation{
+    animation-name: left;
+    animation-duration: 1s;
+  }
+
+
+
+  @keyframes left {
+    0%   {left: -100px;opacity: 0;}
+    100% {left: 0;opacity: 1;}
+  }
+
+
+  
+  .right-animation{
+    animation-name: right;
+    animation-duration: 1s;
+  }
+
+
+
+  @keyframes right {
+    0%   {right: -100px;opacity: 0;}
+    100% {right: 0;opacity: 1;}
+  }
+
+
+
+  
