@@ -13,6 +13,50 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
+          title="Ordro"
+          des="B2B project (Based on medusa) is designed to streamline essential facets of business operations, offering a comprehensive suite of tools to elevate of success. Easily manage and display diverse price lists, facilitating tailored pricing such as discounts for loyal customers or special deals for bulk orders. Run captivating promotions to boost sales and entice customers with special offers. Smartly apply discounts across orders, specific products, or targeted customer groups. Enhance customer engagement through the seamless purchase and use of gift cards, making it effortless for them to share your products as thoughtful gifts. Optimize delivery routes with our Routing Journeys feature, ensuring swift and cost-effective shipping. The Inventory Module keeps meticulous track of product stock and facilitates efficient restocking to prevent stockouts. With these robust features, this B2B platform is a comprehensive solution for managing pricing, promotions, customer interaction, and logistics, laying the foundation for business's sustained success."
+          isTailwind
+          isCss
+          isNx
+          isReact
+          images={[
+            "/img/order_1.png",
+            "/img/order_2.png",
+            "/img/order_3.png",
+            "/img/order_4.png",
+            "/img/order_5.png",
+            "/img/order_6.png",
+            "/img/order_7.png",
+            "/img/order_8.png",
+            "/img/order_9.png",
+            "/img/order_10.png",
+            "/img/order_12.png",
+            "/img/order_13.png",
+            "/img/order_14.png",
+            "/img/order_15.png",
+            "/img/order_16.png",
+            "/img/order_17.png",
+            "/img/order_18.png",
+            "/img/order_19.png",
+            "/img/order_20.png",
+            "/img/order_21.png",
+            "/img/order_23.png",
+            "/img/order_24.png",
+            "/img/order_25.png",
+            "/img/order_26.png",
+            "/img/order_27.png",
+            "/img/order_28.png",
+            "/img/order_29.png",
+            "/img/order_30.png",
+            "/img/order_31.png",
+            "/img/order_32.png",
+            "/img/order_33.png",
+            "/img/order_36.png",
+            "/img/order_38.png",
+            "/img/order_40.png",
+          ]}
+        />
+        <ProjectsCard
           title="dearborn News"
           des=" This website provide latest events and news of the cities of Dearborn, Dearborn Heights, and the Detroit metro area."
           isNext
