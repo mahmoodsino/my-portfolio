@@ -5,7 +5,7 @@ const RightBanner = () => {
     <div className="w-full flex justify-center items-center relative">
       <img
         className=""
-        src="/bannerImg.png"
+        src="/bg.png"
         alt="bannerImg"
       />
      
