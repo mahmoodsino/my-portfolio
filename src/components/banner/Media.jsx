@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedinIn, FaReact } from "react-icons/fa";
 import {
-  SiGitlab,
+  SiGithub,
   SiGmail,
   SiNextdotjs,
   SiNx,
@@ -23,11 +23,11 @@ const Media = () => {
         </h2>
         <div className={`flex gap-4 `}>
           <a
-            href="https://gitlab.com/ms.divcodes"
+            href="https://github.com/mahmoodsino"
             target="_blank"
             className="bannerIcon"
           >
-            <SiGitlab />
+            <SiGithub />
           </a>
           <a
             href="https://www.linkedin.com/in/mahmood-sino-51810a230/"

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
-import { SiGitlab, SiGmail } from "react-icons/si";
+import { SiGithub, SiGmail } from "react-icons/si";
 import { useInView } from "react-intersection-observer";
 
 const ContactLeft = () => {
@@ -25,11 +25,11 @@ const ContactLeft = () => {
       </div>
       <div className="flex gap-4">
         <a
-          href="https://gitlab.com/ms.divcodes"
+          href="https://github.com/mahmoodsino"
           target="_blank"
           className="bannerIcon"
         >
-          <SiGitlab />
+          <SiGithub />
         </a>
         <a
           href="https://www.linkedin.com/in/mahmood-sino-51810a230/"

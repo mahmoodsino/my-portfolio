@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { SiGitlab, SiGmail } from "react-icons/si";
+import { SiGithub, SiGmail } from "react-icons/si";
 import { Link } from "react-scroll";
 import { navLinksdata } from "../../constants";
 import useLockPage from "../hook/use-lock-page";
@@ -104,11 +104,11 @@ const Navbar = () => {
                 </h2>
                 <div className="flex gap-4">
                   <a
-                    href="https://gitlab.com/ms.divcodes"
+                    href="https://github.com/mahmoodsino"
                     target="_blank"
                     className="bannerIcon"
                   >
-                    <SiGitlab />
+                    <SiGithub />
                   </a>
                   <a
                     href="https://www.linkedin.com/in/mahmood-sino-51810a230/"

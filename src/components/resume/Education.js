@@ -19,6 +19,18 @@ const Education = () => {
           />
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
           <ResumeCard
+            title="Polkadot Developer & Front-End Developer"
+            subTitle="May 2024 - Present"
+            result="Dubai, United Arab Emirates · On-site"
+            des="Developing and maintaining blockchain solutions using Polkadot.
+
+Building interactive and user-friendly front-end interfaces with React and TypeScript.
+
+Creating, managing, and integrating NFTs and tokens on custom blockchains.
+
+Collaborating with teams to deliver seamless Web3 experiences."
+          />
+          <ResumeCard
             title="Frontend Web developer"
             subTitle="Divcodes - (2021 - 31/01/2024)"
             result="Lebanon"
