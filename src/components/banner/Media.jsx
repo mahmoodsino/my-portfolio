@@ -5,6 +5,7 @@ import {
   SiGmail,
   SiNextdotjs,
   SiNx,
+  SiPolkadot,
   SiTailwindcss,
   SiVite,
 } from "react-icons/si";
@@ -60,7 +61,7 @@ const Media = () => {
             <SiTailwindcss />
           </span>
           <span className="bannerIcon">
-            <SiNx />
+            <SiPolkadot />
           </span>
           <span className="bannerIcon">
             <SiVite />
