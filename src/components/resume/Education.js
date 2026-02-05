@@ -19,16 +19,10 @@ const Education = () => {
           />
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
           <ResumeCard
-            title="Polkadot Developer & Front-End Developer"
-            subTitle="May 2024 - Present"
+            title="Front-End Developer"
+            subTitle="TAIF AL JOUD TECHNOLOGY L.L.C - May 2024 - Present"
             result="Dubai, United Arab Emirates · On-site"
-            des="Developing and maintaining blockchain solutions using Polkadot.
-
-Building interactive and user-friendly front-end interfaces with React and TypeScript.
-
-Creating, managing, and integrating NFTs and tokens on custom blockchains.
-
-Collaborating with teams to deliver seamless Web3 experiences."
+            des="Developed interactive, high-performance web interfaces using React and Next.js, built reusable front-end SDKs to streamline workflows, integrated Web3 wallet authentication and smart-contract UI flows, implemented responsive cross-device designs, enhanced application performance and security using modern optimization tools, and developed cross-platform mobile applications using Expo (React Native)."
           />
           <ResumeCard
             title="Frontend Web developer"
